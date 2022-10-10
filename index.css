@@ -1,0 +1,28 @@
+.header{
+  background-color: slategray;
+  width: 1820px;
+  position: absolute;
+}
+
+.images_left{
+  float:left;
+  position: relative;
+  left: 10px;
+  padding: 5px;
+}
+
+.images_right{
+  float:right;
+  position: relative;
+  right: 10px;
+  padding: 15px 0px;
+}
+
+a{
+  margin-right: 30px;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
