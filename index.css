@@ -1,28 +1,191 @@
 .header{
   background-color: slategray;
-  width: 1820px;
-  position: absolute;
+  /* width: 1292px; */
+  width: 1843px
 }
+
+body{ 
+  background-color: lightgray;
+} 
 
 .images_left{
   float:left;
-  position: relative;
-  left: 10px;
-  padding: 5px;
+  margin-left:15px;
+  margin-top:12px;
 }
 
 .images_right{
   float:right;
-  position: relative;
-  right: 10px;
-  padding: 15px 0px;
+  margin-top: 16px;
 }
 
 a{
   margin-right: 30px;
 }
 
-h2{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 10px;
+.images_left a:nth-child(2)
+{
+    margin-left:50px;
+}
+
+.images_right a:nth-child(1)
+{
+    margin-right:20px;
+}
+
+.images_right a:nth-child(2)
+{
+    margin-right:20px;
+}
+
+.images_right a:nth-child(3)
+{
+    margin-right:20px;
+}
+
+.title{
+  margin-top:0.5cm;
+  margin-left:15px;
+  font-family: Lato;
+}
+
+.all_rectangles
+{
+  margin-top: 1.5rem;
+  font-family: Quicksand;
+  color:white;
+  text-transform: uppercase;
+  margin-left:15px;
+}
+
+.section1{
+  display:inline-block;
+}
+
+.section2{
+  display:inline-block;
+  margin-top: 5px;
+}
+
+.all_rectangles .content p {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.rectangle1{
+  background-color:#FEC006;
+  float: left;
+  width:375px;
+  height:90px;
+  margin-right: 100px;
+}
+
+.rectangle1 .content p:nth-child(1) .rectangle2 .content p:nth-child(1) 
+{
+    font-family:Quicksand;
+    font-size:16px;
+}
+
+.rectangle1 .content p:nth-child(2) .rectangle2 .content p:nth-child(2)
+{
+    font-family:Quicksand;
+    font-size:30px;
+}
+
+.rectangle_img img
+{
+    text-align: center;
+    float:right;
+    margin-top: 22px;
+    margin-right: 18px;
+}
+
+.content{
+  font-family: Quicksand;
+  float:left;
+}
+
+.rectangle1 p:nth-child(2)
+{
+  margin-top:10px;
+  clear: left;
+}
+
+.rectangle2{
+  background-color:#E81D62;
+  float:left;
+  width:375px;
+  height:90px;
+  margin-right: 100px;
+}
+
+.rectangle3{
+  background-color:#8AC249;
+  float:left;
+  width:375px;
+  height:90px;
+  margin-right: 100px;
+}
+
+.rectangle4{
+  background-color:#2095F2;
+  float:left;
+  width:375px;
+  height:90px;
+}
+
+.all_squares{
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: Quicksand;
+  text-transform: uppercase;
+}
+
+.square1{
+  width:375px;
+  height:210px;
+  background-color: white;
+  margin-right: 100px;
+  float: left;
+}
+
+.dot
+{
+  height: 100px;
+  width: 100px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  float: left;
+  margin-left: 130px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dot p:nth-child(1)
+{
+  margin-top: 25px;
+  font-size: 24;
+}
+
+.square2{
+  width:375px;
+  height:210px;
+  background-color: white;
+  margin-right: 100px;
+  float: left;
+}
+
+.square3{
+  width:375px;
+  height:210px;
+  background-color: white;
+  margin-right: 100px;
+  float: left;
+}
+
+.square4{
+  width:375px;
+  height:210px;
+  background-color: white;
+  float: left;
 }
