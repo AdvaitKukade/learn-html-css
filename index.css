@@ -130,7 +130,7 @@ a{
 .rectangle4{
   background-color:#2095F2;
   float:left;
-  width:375px;
+  width:380px;
   height:90px;
 }
 
@@ -156,7 +156,7 @@ a{
   background-color: antiquewhite;
   border-radius: 50%;
   float: left;
-  margin-left: 130px;
+  margin-left: 135px;
   margin-top: 20px;
   text-align: center;
 }
@@ -167,12 +167,20 @@ a{
   font-size: 24;
 }
 
+.square1 .dot{
+  box-shadow: 0 0 0 10px #e78267;
+}
+
 .square2{
   width:375px;
   height:210px;
   background-color: white;
   margin-right: 100px;
   float: left;
+}
+
+.square2 .dot{
+  box-shadow: 0 0 0 10px #FEC006;
 }
 
 .square3{
@@ -183,9 +191,101 @@ a{
   float: left;
 }
 
+.square3 .dot{
+  box-shadow: 0 0 0 10px paleturquoise;
+}
+
 .square4{
-  width:375px;
+  width:380px;
   height:210px;
   background-color: white;
   float: left;
+}
+
+.square4 .dot{
+  box-shadow: 0 0 0 10px paleturquoise;
+}
+
+.bottom_content{
+    text-transform: uppercase;
+}
+
+.text ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.line{
+  border: 1px solid gainsboro;
+  margin-top: 140px;
+}
+
+.bottom_content p:nth-child(1){
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bottom_content p:nth-child(2){
+  text-align: right;
+}
+
+.section3{
+  display: inline;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.big_rectangle_1{
+  background-color: white;
+  height: 1px;
+  width: 1px;
+}
+
+.progress_bar{
+  background-color: white;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.filled_progress_bar{
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+  width:30%;
+}
+
+.outer_div{
+  display:flex;
+  flex-direction:column;
+}
+
+.section4{
+  display: inline;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.left_rectangle{
+  background-color: white;
+  width:850px;
+  height:280px;
+  margin-top: 10px;
+  float:left;
+}
+
+.right_rectangle{
+  background-color: white;
+  float: right;
+  width:860px;
+  height:280px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.section5{
+  margin-top:40px;
+  background-color:slategray;
 }
